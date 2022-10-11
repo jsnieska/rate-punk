@@ -6,7 +6,7 @@
 npm i
 ```
 
-## launch client
+## launch page
 
 ```
 npm run start
