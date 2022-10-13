@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Noto+Sans:wght@100;200;300;400;500&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #1F343E;
+}
+
+.navbar a {
+  color: #434A54;
+  text-decoration: none;
+  margin-left: 50px;
+}
+.navbar a:hover {
+  color: #4EB3E3;
+}/*# sourceMappingURL=navbar.css.map */

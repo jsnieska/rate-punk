@@ -1,7 +1,13 @@
+import "../src/styles/main.css"
 import React from 'react';
+import MainBanner from "./components/main-banner/mainBanner";
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <MainBanner />
+      {/* <div>App</div> */}
+    </>
+
   )
 }
 
