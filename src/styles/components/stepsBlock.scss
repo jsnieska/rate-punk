@@ -1,6 +1,27 @@
 @import "../../styles/variables/variables.scss";
 
-.stepsBlock {
+.stepBlock {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 448px;
+  
+  img {
+    width: 128px;
+  }
+  
+  .stepTextBlock {
+    width: 256px;
+  }
+}
+
+.stepNumber {
+  color: $lighBlueColor;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.stepName {
+  font-family: $titleFont;
+  font-size: 32px;
 }

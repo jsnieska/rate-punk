@@ -29,4 +29,9 @@
     border: $mainBorder;
     border-radius: $borderRadius;
   }
+
+  .formConditions {
+    color: $condintionTextColor;
+    font-size: $conditionFontSize;
+  }
 }
