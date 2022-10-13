@@ -14,7 +14,7 @@ const MainBanner = () => {
         </div>
       </div>
       <div>
-        <div></div>
+        <stepsBlock />
         <div></div>
         <div></div>
       </div>
