@@ -1,0 +1,12 @@
+@import "../../styles/variables/variables.scss";
+
+.mainBanner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $lightOrangeColor;
+  border: $mainBorder;
+  height: 925px;
+  width: 100%;
+}
+

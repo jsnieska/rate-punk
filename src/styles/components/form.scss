@@ -1,15 +1,5 @@
 @import "../../styles/variables/variables.scss";
 
-.mainBanner {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: $lightOrangeColor;
-  border: $mainBorder;
-  height: 925px;
-  width: 100%;
-}
-
 .formBlock {
   display: flex;
   justify-content: center;
@@ -17,6 +7,7 @@
   width: 544px;
   height: 797px;
   border: $mainBorder;
+  border-radius: $borderRadius;
 }
 
 .form {
@@ -36,5 +27,6 @@
     font-size: $reguralFontSize;
     height: 64px;
     border: $mainBorder;
+    border-radius: $borderRadius;
   }
 }

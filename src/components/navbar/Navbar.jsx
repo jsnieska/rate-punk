@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './navbar.scss'
+import '../../styles/components/navbar.scss'
 
 const Navbar = () => {
  const [currentTab, setCurrentTab] = useState(1);
@@ -15,8 +15,8 @@ const Navbar = () => {
       </div>
       <div>
         <a href='/home' onClick={() => handleTabChange(1)} style={{color: currentTab === 1 ? '#4EB3E3' : '#434A54'}}>Chrome Extension</a>
-        <a href='/price'>Price Comparison</a>
-        <a href='/blog'>Blog</a>
+        <a href='/price' onClick={() => handleTabChange(1)} style={{color: currentTab === 2 ? '#4EB3E3' : '#434A54'}}>Price Comparison</a>
+        <a href='/blog' onClick={() => handleTabChange(1)} style={{color: currentTab === 3 ? '#4EB3E3' : '#434A54'}}>Blog</a>
       </div>
     </div>
   )

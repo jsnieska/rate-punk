@@ -1,10 +1,14 @@
 import React from 'react'
 
-const StepsBlock = ({ imUrl, title, content }) => {
+const StepsBlock = ({ img, imgAlt, title, stepNumber, text }) => {
   return (
-    <div>
-      <img src={imUrl} alt="" />
-      <div className='klasesName'>{title}</div>
+    <div className='stepsBlock'>
+      <img src={img} alt={imgAlt} />
+        <div className='featureText'>
+          <p className='stepNumber'>STEP{stepNumber}</p>
+          <p className='stepName'>{title}</p>
+          <p>{text}</p>
+        </div>
     </div>
   )
 }
