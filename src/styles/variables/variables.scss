@@ -5,7 +5,6 @@
 $lighBlueColor: #4EB3E3;
 $lightOrangeColor: #F8CC5D;
 $blackColor: #1F343E;
-$red: #1F343E;
 $blackNavColor: #434A54;
 $whiteColor: #FFFFFF;
 $lightPinkColor: #F8F4F9;
@@ -20,8 +19,10 @@ $mainFont: 'Noto Sans', sans-serif;
 // Font Size
 $reguralFontSize: 20px;
 $titleFontSize: 48px;
-$conditionFontSize: 16px;
+$smallerFontSize: 16px;
 
 // Borders
 $mainBorder: 1px solid $blackColor;
 $borderRadius: 16px;
+$imageBorderRadius: 8px;
+

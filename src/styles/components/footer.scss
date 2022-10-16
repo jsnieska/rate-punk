@@ -1,0 +1,73 @@
+@import "../../styles/variables/variables.scss";
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 348px;
+  background-color: $lightPinkColor;
+  color: $blackColor;
+  font-size: $smallerFontSize;
+
+    a {
+    color: $blackNavColor;
+    text-decoration: none;
+
+    &:hover{
+      color: $lighBlueColor;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1120px;
+    height: 226px;
+  }
+  .sectionName {
+    font-size: $reguralFontSize;
+    font-weight: bold;
+  }
+
+  .firstBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 554px;
+
+    img {
+      width: 125px;
+      height: 32px;
+    }
+    .dislaimer {
+      color: $condintionTextColor
+    }
+  }
+  
+  .secondBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 166px;
+  }
+
+  .thirdBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .social {
+      display: flex;
+      gap: 8px;
+
+      img {
+        background-color: $lighBlueColor;
+        border: $mainBorder;
+        border-radius: $imageBorderRadius;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}
