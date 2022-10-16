@@ -4,7 +4,7 @@ import '../../styles/components/footer.scss'
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='content'>
+      <div className='footerContent'>
         <div className='firstBlock'>
           <img src="logo.svg" alt="Ratepunk logo" />
           <p>Ratepunk compares hotel room prices across the major online travel agencies. When you search for a room, Ratepunk extension scans the top booking sites and runs a price comparison, so you can be confident in knowing you’re getting the best deal!</p>
@@ -19,13 +19,12 @@ const Footer = () => {
           <a href="privacy-policy">Privacy Policy</a>
         </div>
         <div className='thirdBlock'>
-          <div>
+          <div className='contacts'>
             <p className='sectionName'>CONTACT</p>
-            
-          </div>
-          <div>
+          <div className='email'>
           <img src="email-footer.svg" alt="email Ratepunk" />
           <a href="mailto:hi@ratepunk.com">hi@ratepunk.com</a>
+          </div>
           </div>
           <div>
             <p className='sectionName'>Social</p>

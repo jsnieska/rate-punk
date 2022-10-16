@@ -7,8 +7,12 @@
   background-color: $lightOrangeColor;
   border: $mainBorder;
   height: 925px;
-  width: 100%;
   gap: 136px;
+}
+
+.mainBannercontent {
+  @include content();
+  align-items: center;
 }
 
 .stepBlocks {
@@ -16,5 +20,3 @@
   flex-direction: column;
   gap: 64px;
 }
-
-

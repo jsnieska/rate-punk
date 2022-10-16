@@ -9,6 +9,10 @@
   border: $mainBorder;
 }
 
+.navContent {
+    @include content();
+}
+
 .navbar a {
   color: $blackNavColor;
   text-decoration: none;

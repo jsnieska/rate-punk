@@ -7,17 +7,21 @@ import '../../styles/components/downloandApp.scss'
 const SharingBlock = () => {
   return (
     <div className='sharingBlock'>
-      <DownloandApp 
-      img='chrome.svg'
-      imgAlt='downloand Ratepunk on web store Chrome'
-      storeText='chrome web'
-      />
-      <DownloandApp 
-      img='apple.svg'
-      imgAlt='downloand Ratepunk on web store app store'
-      storeText='apple app'
-      />
-      <div>★ ★ ★ ★ ★ Chrome Store reviews</div>
+      <div className='sharingConent'>
+        <div className='sharing'>
+        <DownloandApp 
+        img='chrome.svg'
+        imgAlt='downloand Ratepunk on web store Chrome'
+        storeText='chrome web'
+        />
+        <DownloandApp 
+        img='apple.svg'
+        imgAlt='downloand Ratepunk on web store app store'
+        storeText='apple app'
+        />
+        </div>
+        <div>★ ★ ★ ★ ★ Chrome Store reviews</div>
+      </div>
     </div>
   )
 }

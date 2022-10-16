@@ -18,11 +18,8 @@
     }
   }
 
-  .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1120px;
+  .footerContent {
+    @include content();
     height: 226px;
   }
   .sectionName {
@@ -50,6 +47,17 @@
     flex-direction: column;
     justify-content: space-between;
     width: 166px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .email {
+      display: flex;
+      gap: 8px;
+    }
   }
 
   .thirdBlock {

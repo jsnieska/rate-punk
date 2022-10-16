@@ -26,3 +26,14 @@ $mainBorder: 1px solid $blackColor;
 $borderRadius: 16px;
 $imageBorderRadius: 8px;
 
+// Content Width
+$contentWidth: 1120px;
+
+// Mixins 
+@mixin content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: $contentWidth;
+}
+
