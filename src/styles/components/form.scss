@@ -30,6 +30,14 @@
     border-radius: $borderRadius;
   }
 
+  input { 
+    color: $condintionTextColor;
+    font-size: $reguralFontSize;
+    height: 64px;
+    border: $mainBorder;
+    border-radius: $borderRadius;
+  }
+
   .formConditions {
     color: $condintionTextColor;
     font-size: $conditionFontSize;

@@ -8,31 +8,11 @@
   border: $mainBorder;
   height: 925px;
   width: 100%;
-}
 
-
-.stepBlock {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 448px;
-  
-  img {
-    width: 128px;
-  }
-  
-  .stepTextBlock {
-    width: 256px;
+  .stepBlocks {
+    display: flex;
+    flex-direction: column;
   }
 }
 
-.stepNumber {
-  color: $lighBlueColor;
-  text-transform: uppercase;
-  font-weight: bold;
-}
 
-.stepName {
-  font-family: $titleFont;
-  font-size: 32px;
-}

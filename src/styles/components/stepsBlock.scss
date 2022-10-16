@@ -12,16 +12,16 @@
   
   .stepTextBlock {
     width: 256px;
+
+    .stepNumber {
+      color: $lighBlueColor;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    
+    .stepName {
+      font-family: $titleFont;
+      font-size: 32px;
+    }
   }
-}
-
-.stepNumber {
-  color: $lighBlueColor;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.stepName {
-  font-family: $titleFont;
-  font-size: 32px;
 }
