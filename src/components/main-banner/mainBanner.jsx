@@ -1,5 +1,5 @@
-import "../../styles/components/mainBanner.scss"
 import React from 'react'
+import "../../styles/components/mainBanner.scss"
 import Form from "./form/form"
 import StepsBlock from "./stepsBlock/stepsBlock"
 import "../../styles/components/stepsBlock.scss"

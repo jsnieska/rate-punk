@@ -1,10 +1,11 @@
 import "./index.scss"
 import React from 'react';
-import MainBanner from "./components/main-banner/mainBanner";
+import HomePage from "./components/home-page";
+
 const App = () => {
   return (
     <>
-      <MainBanner />
+      <HomePage />
     </>
 
   )

@@ -3,7 +3,7 @@
 .stepBlock {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 448px;
   
   img {
@@ -11,7 +11,10 @@
   }
   
   .stepTextBlock {
+    display: flex;
+    flex-direction: column;
     width: 256px;
+    gap: 16px;
 
     .stepNumber {
       color: $lighBlueColor;

@@ -2,17 +2,19 @@
 
 .mainBanner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: $lightOrangeColor;
   border: $mainBorder;
   height: 925px;
   width: 100%;
+  gap: 136px;
+}
 
-  .stepBlocks {
-    display: flex;
-    flex-direction: column;
-  }
+.stepBlocks {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }
 
 

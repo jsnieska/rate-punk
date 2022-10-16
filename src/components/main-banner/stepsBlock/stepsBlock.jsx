@@ -1,5 +1,4 @@
 import React from 'react'
-import "../../../styles/components/stepsBlock.scss"
 
 const StepsBlock = ({ img, imgAlt, title, stepNumber, text }) => {
   return (
