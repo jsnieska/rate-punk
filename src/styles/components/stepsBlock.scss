@@ -5,6 +5,10 @@
   flex-direction: row;
   justify-content: space-around;
   width: 448px;
+
+  &:nth-child(2) {
+    flex-direction: row-reverse;
+  }
   
   img {
     width: 128px;
