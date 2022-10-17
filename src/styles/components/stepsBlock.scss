@@ -4,10 +4,17 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 448px;
-
+  gap: 16px;
+  
   &:nth-child(2) {
     flex-direction: row-reverse;
+    @include lg {
+      @include mobile
+    }
+  }
+
+  @include lg {
+    @include mobile
   }
   
   img {
@@ -19,6 +26,9 @@
     flex-direction: column;
     width: 256px;
     gap: 16px;
+    @include lg {
+      @include mobile
+    }
 
     .stepNumber {
       color: $lighBlueColor;

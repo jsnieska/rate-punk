@@ -6,21 +6,26 @@
   align-items: center;
   background-color: $sharingBlockBg;
   color: $whiteColor;
-  width: 100%;
-  height: 164px;
+  padding: 32px;
   border: $mainBorder;
-
-  &:hover {
-    cursor: pointer;
-  }
 
   .sharingConent {
     @include content();
     align-items: center;
+    @include lg {
+      @include mobile
+    }
   }
 
   .sharing {
     display: flex;
     gap: 16px;
+    @include lg {
+      @include mobile
+    }
+    
+    &:hover {
+      cursor: pointer;
+    }
   }
 }

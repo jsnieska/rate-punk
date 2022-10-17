@@ -6,13 +6,18 @@
   align-items: center;
   background-color: $lightOrangeColor;
   border: $mainBorder;
-  height: 925px;
   gap: 136px;
 }
 
 .mainBannercontent {
+  margin: 64px;
   @include content();
   align-items: center;
+  @include lg {
+    // width: 100%;
+    flex-direction: column;
+    margin: 16px;
+  }
 }
 
 .stepBlocks {

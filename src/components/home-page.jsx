@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import MainBanner from './main-banner/mainBanner'
 import SharingBlock from './sharingBlock/sharingBlock';
 

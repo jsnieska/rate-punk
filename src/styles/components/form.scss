@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   background-color: $lightPinkColor;
-  width: 544px;
-  height: 797px;
+  max-width: 544px;
+  max-height: 797px;
   border: $mainBorder;
   border-radius: $borderRadius;
 }
@@ -14,7 +14,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 416px;
+  padding: 64px;
+  @include lg {
+    padding: 32px;
+  }
 
   .formFields {
     display: flex;
@@ -24,6 +27,9 @@
     .title {
       font-family: $titleFont;
       font-size: $titleFontSize;
+      @include lg {
+        font-size: 32px;
+      }
     }
 
     .inputs {
@@ -33,6 +39,18 @@
     }
   }
 
+  input { 
+    color: $condintionTextColor;
+    font-size: $reguralFontSize;
+    height: 64px;
+    border: $mainBorder;
+    border-radius: $borderRadius;
+    @include lg {
+      height: 32px;
+      font-size: $smallerFontSize;
+      padding: 17px;
+    }
+  }
 
   button {
     background-color: $lighBlueColor;
@@ -41,15 +59,17 @@
     height: 64px;
     border: $mainBorder;
     border-radius: $borderRadius;
+    @include lg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 32px;
+      font-size: $smallerFontSize;
+      padding: 32px;
+      margin-bottom: 30px;
+    }
   }
 
-  input { 
-    color: $condintionTextColor;
-    font-size: $reguralFontSize;
-    height: 64px;
-    border: $mainBorder;
-    border-radius: $borderRadius;
-  }
 
   .formConditions {
     color: $condintionTextColor;

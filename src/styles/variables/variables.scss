@@ -19,6 +19,7 @@ $mainFont: 'Noto Sans', sans-serif;
 // Font Size
 $reguralFontSize: 20px;
 $titleFontSize: 48px;
+$mobileFontSize: 32px;
 $smallerFontSize: 16px;
 
 // Borders
@@ -29,6 +30,16 @@ $imageBorderRadius: 8px;
 // Content Width
 $contentWidth: 1120px;
 
+//BreakPoints
+
+$screen-lg-max: 1000px;
+
+
+@mixin lg {
+  @media (max-width: #{$screen-lg-max}) {
+      @content;
+  }
+}
 // Mixins 
 @mixin content {
   display: flex;
@@ -37,3 +48,9 @@ $contentWidth: 1120px;
   width: $contentWidth;
 }
 
+@mixin mobile {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16px;
+}
