@@ -10,6 +10,10 @@
   height: 164px;
   border: $mainBorder;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   .sharingConent {
     @include content();
     align-items: center;
